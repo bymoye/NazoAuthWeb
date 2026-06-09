@@ -569,12 +569,12 @@ export default function Docs() {
                 </p>
               </div>
               <div className="docs-card">
-                <h2>accounts-test.nazo.run 当前路径</h2>
+                <h2>auth.nazo.run current paths</h2>
                 <ul className="docs-list">
-                  <li>静态文件目录：<code>/usr/local/angie/html/accounts-test</code></li>
-                  <li>前端路由：<code>/</code>、<code>/auth</code>、<code>/consent</code>、<code>/profile</code>、<code>/admin</code></li>
+                  <li>静态文件目录：<code>/usr/local/angie/html/auth/ui</code></li>
+                  <li>Frontend routes: <code>/ui/</code>, <code>/ui/auth</code>, <code>/ui/consent</code>, <code>/ui/profile</code>, <code>/ui/admin</code></li>
                   <li>API 路由：<code>/auth/*</code>、<code>/admin/*</code>、<code>/authorize</code>、<code>/token</code>、<code>/.well-known/*</code></li>
-                  <li>验证命令：<code>npm run test</code></li>
+                  <li>Verification command: <code>VITE_BASE_PATH=/ui/ VITE_API_BASE_URL=https://auth.nazo.run npm run build</code></li>
                 </ul>
               </div>
             </section>

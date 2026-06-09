@@ -209,7 +209,7 @@ function createInitialClientForm(): ClientFormModel {
     clientName: 'demo-web-client',
     clientType: 'public',
     tokenEndpointAuthMethod: 'none',
-    redirectUris: ['https://accounts-test.nazo.run/docs'],
+    redirectUris: ['https://auth.nazo.run/ui/docs'],
     scopes: ['openid', 'profile'],
     allowedAudiences: ['resource://default'],
     grantTypes: ['authorization_code', 'refresh_token'],
